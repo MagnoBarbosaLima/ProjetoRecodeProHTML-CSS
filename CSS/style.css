@@ -1,0 +1,182 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+body{
+    background-image: linear-gradient(to right, rgb(20, 146, 219), rgb(17, 53, 70));
+}
+
+/*navegação*/
+.navigation{
+    margin-top: 23px;
+  
+}
+
+div{
+    display: inline-block;
+}
+
+/*Menu principal*/
+.menu{
+    display: flex;
+    font-size: larger;
+    margin-left: 220px;
+}
+
+.menu li{
+    padding-left: 32px;
+    list-style: none;
+}
+
+.menu li a{
+    color: white;
+    text-decoration: none;
+}
+
+.name-site{
+    padding-left: 40px;
+}
+
+.name-site a{
+    color: white;
+    font-size:x-large  
+}
+
+.container-about{
+    color: white;
+    display: block;
+    width: 550px;
+    height: 440px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: 30px auto 0px auto;
+    border-radius: 8px;
+}
+
+.container-about h2{
+    margin-top: 25px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.container-about p{
+    margin: 8px;
+    text-align: justify;
+    border-radius: 0.5;
+}
+
+.container{
+    margin: 15px;
+    border: solid 1px gray;
+    border-radius: 8px;
+}
+
+/*Destinos*/
+.desti{
+    display: block;
+    width: 950px;
+    height: 440px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: 30px auto 0 auto;
+    text-align: center;
+    border-radius: 8px;
+}
+
+
+.items-desti img{
+    display: block;
+    margin: 10px 40px 0 40px;
+    width: 200px;
+    border-radius: 8px;
+}
+
+.items-desti h2{
+    margin-top: 10px;
+    color: white;
+}
+
+.items-desti p{
+    display: block;
+    color: white;
+    width: 20px;
+}
+
+.items-desti rj{
+    background-color: white;
+    border: solid 5px red;
+}
+
+/*Promoções*/
+
+main{
+    text-align: center;
+}
+
+main img{
+    width: 80%;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+main h2{
+    color: white;
+    margin-top: 20px;
+}
+
+/*contato*/
+.content{
+    display: flex;
+    justify-content: center;
+}
+
+.mensagem{
+    width: 100%;
+    max-width: 500px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.campo{
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1;
+}
+.text{
+    margin-bottom: 25px;
+}
+
+textarea{
+    height: 150px;
+}
+
+/*rodapé*/
+.container-footer{
+    width: 100%;
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+.footer{
+    margin: 15px;
+    padding: 15px;
+    border: solid 1px gray;
+    border-radius: 8px;
+}
+
+.footer h1{
+    font-size: 15px;
+}
+
+.contacts ul li{
+    list-style: none;
+    margin-left: 25px;
+}
